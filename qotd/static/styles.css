@@ -1,0 +1,77 @@
+body {
+    color: #B7D5D4;
+    background-color: #2F3A3B;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #66A5AD;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #C4DFE6;
+    text-align: justify;
+}
+
+a {
+    font-size: 20px;
+    color: #66A5AD;
+    font-style: italic;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+table {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #3F4E4F;
+    border: 2px solid #66A5AD;
+}
+
+td {
+    padding: 8px 10px;
+    color: #E6F1F2;
+    vertical-align: middle;
+    text-align: left;
+}
+
+input[type="text"], textarea, select {
+    padding: 6px;
+    margin: 3px 0;
+    border: 1px solid #66A5AD;
+    background-color: #F4F9F9;
+    color: #2F3A3B;
+    font-size: 14px;
+    font-family: 'Georgia', serif;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 0 5px 0 0;
+}
+
+label {
+    color: #E6F1F2;
+    font-family: 'Georgia', serif;
+}
+
+input[type="submit"] {
+    background-color: #66A5AD;
+    color: #2F3A3B;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+    margin: 20px auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #C4DFE6;
+    color: #373E40;
+}
