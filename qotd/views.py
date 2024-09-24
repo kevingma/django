@@ -23,6 +23,7 @@ images = [
 ]
 
 def quote(request):
+    """View for showing randomly selected quote"""
     quote_to_display = random.choice(quotes)
     image_to_display = random.choice(images)
 
@@ -34,6 +35,7 @@ def quote(request):
     return render(request, 'quote.html', context)
 
 def show_all(request):
+    """View for showing all quotes and images"""
     context = {
         'quotes': quotes,
         'images': images
@@ -41,6 +43,7 @@ def show_all(request):
     return render(request, 'show_all.html', context)
 
 def about(request):
+    """View for information about quote author"""
     about_ligotti = "Thomas ligotti is an American author who is known for philosophical horror fiction. He has also written philosophical non-fiction - most of the quotes on this page are from his book 'The Conspiracy Against the Human Race.'"
     context = {
         'about_author': about_ligotti
