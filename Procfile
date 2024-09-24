@@ -1,1 +1,1 @@
-web: gunicorn qotd.wsgi
+web: gunicorn hw2.wsgi
