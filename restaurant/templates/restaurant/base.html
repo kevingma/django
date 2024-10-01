@@ -1,0 +1,21 @@
+ {% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kevin's Creations</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Kevin's Creations</h1>
+    </header>
+    <nav>
+        <a href="{% url 'main' %}">Home</a>
+        <a href="{% url 'order' %}">Order</a>
+    </nav>
+    <div class="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>

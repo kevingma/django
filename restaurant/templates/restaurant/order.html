@@ -1,0 +1,56 @@
+{% extends 'restaurant/base.html' %}
+{% load static %}
+
+{% block content %}
+<h2>Place Your Order</h2>
+<form method="post" action="{% url 'confirmation' %}">
+    {% csrf_token %}
+    <h3>Menu Items:</h3>
+    <h4>Cheeseburger - $8</h4>
+    <input type="checkbox" name="Cheeseburger" id="cheeseburger">
+    <label for="cheeseburger">Add to cart</label><br>
+
+    <p>Toppings, select if you order cheeseburger ($1):</p>
+    <input type="checkbox" name="toppings" value="Lettuce" id="lettuce">
+    <label for="lettuce">Lettuce</label><br>
+    <input type="checkbox" name="toppings" value="Tomato" id="tomato">
+    <label for="tomato">Tomato</label><br>
+    <input type="checkbox" name="toppings" value="Cheese" id="cheese">
+    <label for="cheese">Cheese</label><br>
+
+    <p>Other items:</p>
+
+    <input type="checkbox" name="Big Mac" id="bigmac">
+    <label for="bigmac">Big Mac - $11</label><br>
+
+    <input type="checkbox" name="Burrito" id="burrito">
+    <label for="burrito">Burrito - $14</label><br>
+
+    <input type="checkbox" name="Chopped Cheese" id="cc">
+    <label for="cc">Chopped Cheese - $17</label><br>
+
+    <input type="checkbox" name="Grabba Sandwich" id="gs">
+    <label for="gs">Grabba Sandwich - $12</label><br>
+
+    <input type="checkbox" name="Daily Special" id="special">
+    <label for="special">{{ daily_special }} - $13</label><br>
+
+    <input type="hidden" name="daily_special_name" value="{{ daily_special }}">
+    <input type="hidden" name="daily_special_price" value="13">
+
+    <h3>Special Instructions:</h3>
+    <textarea name="special_instructions" rows="4" cols="50"></textarea><br>
+
+    <h3>Your Information:</h3>
+    <label for="customer_name">Name:</label><br>
+    <input type="text" name="customer_name" id="customer_name" required><br>
+
+    <label for="customer_phone">Phone:</label><br>
+    <input type="tel" name="customer_phone" id="customer_phone" required><br>
+
+    <label for="customer_email">Email:</label><br>
+    <input type="email" name="customer_email" id="customer_email" required><br>
+
+    <input type="submit" value="Place Order">
+</form>
+{% endblock %}

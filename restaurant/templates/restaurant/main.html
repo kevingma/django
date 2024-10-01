@@ -1,0 +1,19 @@
+{% extends 'restaurant/base.html' %}
+{% load static %}
+
+{% block content %}
+<h2>Kevin's Creations!</h2>
+<p>Location: 1232 Beacon St, Brookline MA 02246</p>
+<p>Hours:</p>
+<table>
+    <tr><th>Day</th><th>Hours</th></tr>
+    <tr><td>Monday</td><td>8:30 AM - 9 PM</td></tr>
+    <tr><td>Tuesday</td><td>8:30 AM - 9 PM</td></tr>
+    <tr><td>Wednesday</td><td>8:30 AM - 9 PM</td></tr>
+    <tr><td>Thursday</td><td>8:30 AM - 9 PM</td></tr>
+    <tr><td>Friday</td><td>8:30 AM - 9 PM</td></tr>
+    <tr><td>Saturday</td><td>8:30 AM - 9 PM</td></tr>
+    <tr><td>Sunday</td><td>8:30 AM - 9 PM</td></tr>
+</table>
+<img src="{% static 'images/restaurant.jpg' %}" width="500" class="center">
+{% endblock %}
