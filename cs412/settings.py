@@ -27,7 +27,10 @@ SECRET_KEY = "django-insecure-dly=b-qk39g@b3gp@xlgev12g*arml)mno)@bbo1n5=9&!s-rx
 DEBUG = True
 
 ALLOWED_HOSTS = ['nameless-sierra-16898-0149341843b4.herokuapp.com',
-                 '127.0.0.1']
+                 '127.0.0.1',
+                 'localhost',
+                 'https://kmminifb-4f209b48b336.herokuapp.com',
+                 ]
 
 
 # Application definition
@@ -39,7 +42,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'mini_fb.apps.Mini_fbConfig'
+    'mini_fb.apps.Mini_fbConfig',
 ]
 
 MIDDLEWARE = [
