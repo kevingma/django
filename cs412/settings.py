@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['nameless-sierra-16898-0149341843b4.herokuapp.com',
                  '127.0.0.1',
                  'localhost',
-                 'https://kmminifb-4f209b48b336.herokuapp.com',
+                 'kmminifb-4f209b48b336.herokuapp.com',
                  ]
 
 
