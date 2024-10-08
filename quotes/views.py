@@ -32,7 +32,7 @@ def quote(request):
         'image': image_to_display
     }
 
-    return render(request, 'templates/quote.html', context)
+    return render(request, 'mini_fb/quote.html', context)
 
 def show_all(request):
     """View for showing all quotes and images"""
@@ -40,7 +40,7 @@ def show_all(request):
         'quotes': quotes,
         'images': images
     }
-    return render(request, 'templates/show_all.html', context)
+    return render(request, 'mini_fb/show_all.html', context)
 
 def about(request):
     """View for information about quote author"""
@@ -48,4 +48,4 @@ def about(request):
     context = {
         'about_author': about_ligotti
     }
-    return render(request, 'templates/about.html', context)
+    return render(request, 'mini_fb/about.html', context)
