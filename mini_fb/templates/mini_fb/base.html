@@ -8,7 +8,12 @@
 </head>
 <body>
     <header>
-        <h1>Mini Facebook</h1>
+        <h1><a href="{% url 'show_all_profiles' %}">Mini Facebook</a></h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'create_profile' %}">Create New Profile</a></li>
+            </ul>
+        </nav>
     </header>
 
     {% block content %}
