@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="622240c0-50c6-4e0e-8c32-f222cef9bb57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/a6_url.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/delete_status_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/update_profile_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/482ff8ed-5ceb-4938-a959-438935099f7b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/482ff8ed-5ceb-4938-a959-438935099f7b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs412/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs412/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_fb/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_fb/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/create_status_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/create_status_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/show_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/show_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_fb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_fb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +101,27 @@
       <option name="presentableId" value="Default" />
       <updated>1728346422485</updated>
       <workItem from="1728346423848" duration="4235000" />
-      <workItem from="1729025967375" duration="5549000" />
+      <workItem from="1729025967375" duration="5807000" />
+      <workItem from="1729551426852" duration="5225000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mini_fb/admin.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mini_fb/urls.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

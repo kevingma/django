@@ -5,6 +5,9 @@
 <form method="POST" action="{% url 'create_status' profile.pk %}">
     {% csrf_token %}
     {{ form.as_p }}
+    <label for="files">Upload Images:</label>
+    <input type="file" name="files" multiple />
+    <br><br>
     <button type="submit">Submit</button>
 </form>
 {% endblock %}

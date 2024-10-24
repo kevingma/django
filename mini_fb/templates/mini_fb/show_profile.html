@@ -4,6 +4,7 @@
 
 {% block content %}
 <h2>{{ profile.first_name }} {{ profile.last_name }}</h2>
+    <p><a href="{% url 'update_profile' pk=profile.pk %}">Update Profile</a></p>
 <img src="{{ profile.pfp_url }}" width="600" height="600">
 <table>
     <tr>
@@ -25,6 +26,14 @@
     {% for status in profile.get_status_messages %}
     <li>
         <bold>{{ status.timestamp|date:"SHORT_DATETIME_FORMAT" }}</bold>: {{ status.message }}
+        {% for img in status.get_images %}
+            <div>
+                <img src="{{ img.image_file.url }}" width="200">
+            </div>
+            {% endfor %}
+        <p>
+            <a href="{% url 'delete_status' pk=status.pk %}">Delete</a>
+        </p>
     </li>
     {% empty %}
     <li>None</li>
