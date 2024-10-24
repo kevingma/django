@@ -58,6 +58,5 @@ class DeleteStatusMessageView(DeleteView):
     context_object_name = 'status_message'
 
     def get_success_url(self):
-        # Redirect to the profile page of the status message's owner
         profile_pk = self.object.profile.pk
         return reverse('show_profile', kwargs={'pk': profile_pk})
