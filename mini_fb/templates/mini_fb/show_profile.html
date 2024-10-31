@@ -21,6 +21,21 @@
     </tr>
 </table>
 
+<h3>Friends</h3>
+{% if profile.get_friends %}
+    <ul>
+        {% for friend in profile.get_friends %}
+            <li>
+                <a href="{% url 'show_profile' pk=friend.pk %}">
+                    {{ friend.first_name }} {{ friend.last_name }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No friends</p>
+{% endif %}
+
 <h3>Your Status Messages</h3>
 <ul>
     {% for status in profile.get_status_messages %}
@@ -43,4 +58,8 @@
 <p>
     <a href="{% url 'create_status' profile.pk %}">Create Status</a>
 </p>
+<p>
+    <a href="{% url 'friend_suggestions' pk=profile.pk %}">See Friend Suggestions</a>
+</p>
+
 {% endblock %}

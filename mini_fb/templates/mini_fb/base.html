@@ -15,6 +15,18 @@
             </ul>
         </nav>
     </header>
+    {% if profile %}
+    <p>
+        <a href="{% url 'news_feed' pk=profile.pk %}">News Feed</a>
+    </p>
+{% endif %}
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li class="{{ message.tags }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
 
     {% block content %}
     {% endblock %}
