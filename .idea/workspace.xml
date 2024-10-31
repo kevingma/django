@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="622240c0-50c6-4e0e-8c32-f222cef9bb57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mini_fb/migrations/0005_friend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/friend_suggestions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/news_feed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/show_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/show_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a8_url.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +97,7 @@
       <workItem from="1728346423848" duration="4235000" />
       <workItem from="1729025967375" duration="5807000" />
       <workItem from="1729551426852" duration="6126000" />
-      <workItem from="1730330146968" duration="2702000" />
+      <workItem from="1730330146968" duration="3026000" />
     </task>
     <servers />
   </component>
