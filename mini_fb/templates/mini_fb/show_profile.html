@@ -4,8 +4,13 @@
 
 {% block content %}
 <h2>{{ profile.first_name }} {{ profile.last_name }}</h2>
-    <p><a href="{% url 'update_profile' pk=profile.pk %}">Update Profile</a></p>
+
+{% if user.is_authenticated and profile.user == user %}
+    <p><a href="{% url 'update_profile' %}">Update Profile</a></p>
+{% endif %}
+
 <img src="{{ profile.pfp_url }}" width="600" height="600">
+
 <table>
     <tr>
         <th>First Name:</th>
@@ -36,30 +41,34 @@
     <p>No friends</p>
 {% endif %}
 
-<h3>Your Status Messages</h3>
+<h3>Status Messages</h3>
 <ul>
     {% for status in profile.get_status_messages %}
-    <li>
-        <bold>{{ status.timestamp|date:"SHORT_DATETIME_FORMAT" }}</bold>: {{ status.message }}
-        {% for img in status.get_images %}
-            <div>
-                <img src="{{ img.image_file.url }}" width="200">
-            </div>
+        <li>
+            <strong>{{ status.timestamp|date:"SHORT_DATETIME_FORMAT" }}</strong>: {{ status.message }}
+            {% for img in status.get_images %}
+                <div>
+                    <img src="{{ img.image_file.url }}" width="200">
+                </div>
             {% endfor %}
-        <p>
-            <a href="{% url 'delete_status' pk=status.pk %}">Delete</a>
-        </p>
-    </li>
+            {% if user.is_authenticated and profile.user == user %}
+                <p>
+                    <a href="{% url 'delete_status' pk=status.pk %}">Delete</a>
+                </p>
+            {% endif %}
+        </li>
     {% empty %}
-    <li>None</li>
+        <li>No status messages</li>
     {% endfor %}
 </ul>
 
-<p>
-    <a href="{% url 'create_status' profile.pk %}">Create Status</a>
-</p>
-<p>
-    <a href="{% url 'friend_suggestions' pk=profile.pk %}">See Friend Suggestions</a>
-</p>
+{% if user.is_authenticated and profile.user == user %}
+    <p>
+        <a href="{% url 'create_status' %}">Create Status</a>
+    </p>
+    <p>
+        <a href="{% url 'friend_suggestions' %}">See Friend Suggestions</a>
+    </p>
+{% endif %}
 
 {% endblock %}

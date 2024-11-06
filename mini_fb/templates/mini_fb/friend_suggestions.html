@@ -7,8 +7,10 @@
     <ul>
         {% for suggestion in friend_suggestions %}
             <li>
-                {{ suggestion.first_name }} {{ suggestion.last_name }}
-                <a href="{% url 'add_friend' pk=profile.pk other_pk=suggestion.pk %}">Add Friend</a>
+                <a href="{% url 'show_profile' pk=suggestion.pk %}">
+                    {{ suggestion.first_name }} {{ suggestion.last_name }}
+                </a>
+                <a href="{% url 'add_friend' other_pk=suggestion.pk %}">Add Friend</a>
             </li>
         {% endfor %}
     </ul>
@@ -17,6 +19,6 @@
 {% endif %}
 
 <p>
-    <a href="{% url 'show_profile' pk=profile.pk %}">Profile</a>
+    <a href="{% url 'show_own_profile' %}">Back to Profile</a>
 </p>
 {% endblock %}

@@ -5,12 +5,12 @@
 
 <p>{{ status_message.message }}</p>
 
-<form method="post" action="">
+<form method="post">
     {% csrf_token %}
     <input type="submit" value="Delete">
 </form>
 
-<form method="get" action="{% url 'show_profile' pk=status_message.profile.pk %}">
+<form method="get" action="{% url 'show_own_profile' %}">
     <input type="submit" value="Cancel">
 </form>
 {% endblock %}
