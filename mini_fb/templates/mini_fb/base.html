@@ -1,4 +1,4 @@
- {% load static %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,22 +12,27 @@
         <nav>
             <ul>
                 {% if user.is_authenticated %}
-                    <form method="post" action="{% url 'logout' %}">
-                        {% csrf_token %}
-                        <button type="submit">Logout</button>
-                    </form>
+                    <li><a href="{% url 'show_own_profile' %}">My Profile</a></li>
+                    <li>
+                        <form method="post" action="{% url 'logout' %}">
+                            {% csrf_token %}
+                            <button type="submit">Logout</button>
+                        </form>
+                    </li>
                 {% else %}
-                    <a href="{% url 'login' %}">Login</a>
+                    <li><a href="{% url 'login' %}">Login</a></li>
                     <li><a href="{% url 'create_profile' %}">Create New Profile</a></li>
                 {% endif %}
             </ul>
         </nav>
     </header>
-    {% if profile %}
-    <p>
-        <a href="{% url 'news_feed' pk=profile.pk %}">News Feed</a>
-    </p>
-{% endif %}
+
+    {% if user.is_authenticated and user.profile %}
+        <p>
+            <a href="{% url 'news_feed' %}">News Feed</a>
+        </p>
+    {% endif %}
+
     {% if messages %}
         <ul class="messages">
             {% for message in messages %}

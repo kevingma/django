@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="622240c0-50c6-4e0e-8c32-f222cef9bb57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mini_fb/migrations/0006_profile_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cs412/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs412/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cs412/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs412/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/create_status_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/create_status_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/delete_status_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/delete_status_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/friend_suggestions.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/friend_suggestions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/news_feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/news_feed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/show_all_profiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/show_all_profiles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/templates/mini_fb/show_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/templates/mini_fb/show_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_fb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +103,7 @@
       <workItem from="1729025967375" duration="5807000" />
       <workItem from="1729551426852" duration="6126000" />
       <workItem from="1730330146968" duration="3230000" />
-      <workItem from="1730934937296" duration="1736000" />
+      <workItem from="1730934937296" duration="3133000" />
     </task>
     <servers />
   </component>
