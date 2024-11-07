@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="622240c0-50c6-4e0e-8c32-f222cef9bb57" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/a9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/a9_url.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_fb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <workItem from="1729025967375" duration="5807000" />
       <workItem from="1729551426852" duration="6126000" />
       <workItem from="1730330146968" duration="3230000" />
-      <workItem from="1730934937296" duration="3469000" />
+      <workItem from="1730934937296" duration="3691000" />
     </task>
     <servers />
   </component>
