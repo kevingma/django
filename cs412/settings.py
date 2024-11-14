@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['nameless-sierra-16898-0149341843b4.herokuapp.com',
                  '127.0.0.1',
                  'localhost',
                  'kmminifb-4f209b48b336.herokuapp.com',
+                 'kmvoteranal-ea868ce7a6cb.herokuapp.com',
                  ]
 
 
