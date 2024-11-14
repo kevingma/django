@@ -5,7 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="622240c0-50c6-4e0e-8c32-f222cef9bb57" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/mini_fb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_fb/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newton_voters.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/migrations/0002_alter_voter_date_of_birth_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/templates/voter_analytics/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/templates/voter_analytics/graphs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/templates/voter_analytics/voter_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/templates/voter_analytics/voter_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voter_analytics/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs412/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs412/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs412/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs412/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/restaurant/confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/restaurant/confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/restaurant/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/restaurant/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/restaurant/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/restaurant/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,30 +57,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kevin/django/media&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Kevin/django/voter_analytics",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kevin\django\voter_analytics" />
       <recent name="C:\Users\Kevin\django\media" />
       <recent name="C:\Users\Kevin\django\mini_fb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kevin\django" />
+      <recent name="C:\Users\Kevin\django\voter_analytics\templates\voter_analytics" />
+      <recent name="C:\Users\Kevin\django\voter_analytics\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,7 +123,8 @@
       <workItem from="1729025967375" duration="5807000" />
       <workItem from="1729551426852" duration="6126000" />
       <workItem from="1730330146968" duration="3230000" />
-      <workItem from="1730934937296" duration="3850000" />
+      <workItem from="1730934937296" duration="4176000" />
+      <workItem from="1731537971762" duration="5809000" />
     </task>
     <servers />
   </component>

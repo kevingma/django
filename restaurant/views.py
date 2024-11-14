@@ -4,14 +4,14 @@ from datetime import datetime, timedelta
 
 # Create your views here.
 def main(request):
-    return render(request, 'restaurant/main.html')
+    return render(request, 'voter_analytics/main.html')
 
 def order(request):
     specials = ['SPECIAL: Canned Soup', 'SPECIAL: Lunchables',
         'SPECIAL: White Rice', 'SPECIAL: Toast',]
     daily_special = random.choice(specials)
     context = {'daily_special': daily_special}
-    return render(request, 'restaurant/order.html', context)
+    return render(request, 'voter_analytics/order.html', context)
 
 
 def confirmation(request):
@@ -62,6 +62,6 @@ def confirmation(request):
             'total_price': total_price,
             'ready_time': ready_time_fixed,
         }
-        return render(request, 'restaurant/confirmation.html', context)
+        return render(request, 'voter_analytics/confirmation.html', context)
     else:
         return redirect('order')

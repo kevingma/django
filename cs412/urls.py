@@ -19,6 +19,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('mini_fb.urls')),
+    path('', include('voter_analytics.urls')),
     path("admin/", admin.site.urls),
 ]
